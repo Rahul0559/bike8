@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width ,initial-scale">
+    <link rel="stylesheet" href="bikr.css">
+    <title> Bike info</title>
+  </head>
+  <body>
+    <header class="head">
+      <img src="logo.png" class="logo" alt="">
+      <nav class="navigation">
+      <ul class="icone">
+        <a href="file:///C:/Users/rahul/OneDrive/Desktop/bike%20website/bike.html" class="nv">Home </a>
+        <a href="#" class="nv" >About</a>
+        <a href="#" class="nv" >Contact us</a>
+      </ul></nav>
+    </header>
+      <div>
+      <div class="contain" id="bike">
+         <img src="Copy of BMW1.png" alt="workplace" usemap="#workmap" class="photo"
+        id="image">
+        <map name="workmap">
+       <area shape="rect"
+       coords="622,980,1822,192"alt="Bike"
+       href="file:///C:/Users/rahul/OneDrive/Desktop/bike%20website/S100RR.html">
+        </map>
+      </div>
+      <div class="text">
+        <h2 class="h2">THE BMW</h2>
+        <h1 class="h1">G 310 R</h1>
+        <p class="para">The strength of thr G 310 R is in its lightness and agility. the bike not only delivers fun in the big-city tumult, but also e
+          whe you are redefining the citylimits when changing corners quickly
+        </p>
+        <h3 class="choose">Choose your colour</h3>
+        <div class="colour-select">
+         <button onclick="changeimage()" class="but"><div id="red"></div></button>
+          <button onclick="changeimage1()"  class="but"> <div id="blue"></div></button>
+          <button onclick="changeimage2()"  class="but"><div id="black"></div></button>
+        </div>
+
+      </div>
+      </div>
+      <script>
+    function changeimage()
+    {
+      var img = document.getElementById("image");
+      img.src ="Copy of BMW1.png"
+
+    }
+    function changeimage1()
+    {
+      var img = document.getElementById("image");
+      img.src ="Copy of BMW2.png"
+    }
+    function changeimage2()
+    {
+      var img = document.getElementById("image");
+      img.src ="Copy of BMW3.png"
+    } 
+    </script>
+    <div style="display: grid;
+      grid-template-columns: 50% 50%;">
+      <div class="div1">
+       <img src="2023_bmw_s1000rr_01.jpg" alt="BMW BIKRE" usemap="#image-map" class="bike1">
+       <map name="image-map">
+      <area target="_blank" alt=""  title="bike" href="file:///C:/Users/rahul/OneDrive/Desktop/bike%20website/S100RR.html" 
+      coords="569,441,58,12">
+       </map>
+       <div class="pradiv">
+        <p style="text-align: center; "class="para" >
+          S 1000 RR<br>
+          Standard: ₹ 20,50,000.00<br>
+          Pro: ₹ 22,90,000.00<br>
+          <span>
+            <button class="buy">
+             <a href="www.google.com" target="_blank" class="link">buy now</a>
+            </button>
+          </span>
+        </p>
+       </div>
+      </div>
+      <div class="div2">
+        <img src="bmw-f-900-xr-9.jpg" alt="BMW BIKRE" usemap="#image-map1" class="bike1" id="redbike">
+        <map name="image-map1">
+       <area target="_blank" alt=""  title="bike" href="S1000XR.html" 
+       coords="569,441,58,12">
+        </map>
+        <div class="pradiv">
+          <p style="text-align: center; "class="para" >
+            S 1000 XR<br>
+            Standard: ₹ 22,10,000.00<br>
+            Pro: ₹ 22,90,000.00<br>
+            <span>
+              <button class="buy">
+               <a href="www.google.com" target="_blank" class="link">buy now</a>
+              </button>
+            </span>
+          </p>
+         </div>
+      </div>
+    </div>
+    <div style="display: grid;
+      grid-template-columns: 50% 50%;" id="whitebike">
+      <div class="div1">
+       <img src="undefined-black-storm-metallic-1574425808641.jpg" alt="BMW BIKRE" usemap="#image-map2" class="bike1">
+       <map name="image-map2">
+      <area target="_blank" alt=""  title="bike" href="R1250RT.html"
+      coords="569,441,58,12">
+       </map>
+       <div class="pradiv">
+        <p style="text-align: center; "class="para" >
+          S
+          K 1600 B<br>
+          Standard: ₹ 29,90,000.00<br>
+          Pro: ₹ 30,90,000.00<br>
+          <span>
+            <button class="buy">
+             <a href="www.google.com" target="_blank" class="link">buy now</a>
+            </button>
+          </span>
+        </p>
+       </div>
+      </div>
+      <div class="div2">
+        <img src="bmw-select-model-alpine-white-1676977273212.png" alt="BMW BIKRE" usemap="#image-map3" class="bike1" id="bike4">
+        <map name="image-map3">
+       <area target="_blank" alt=""  title="bike" href="R1250RT.html" 
+       coords="569,441,58,12">
+        </map>
+        <div class="pradiv">
+          <p style="text-align: center; "class="para" >
+            R 1250 RR<br>
+            Standard: ₹ 24,95,000.00<br>
+            Pro: ₹ 26,90,000.00<br>
+            <span>
+              <button class="buy">
+               <a href="www.google.com" target="_blank" class="link">buy now</a>
+              </button>
+            </span>
+          </p>
+         </div>
+      </div>
+    </div>
+    <div style="display: grid;
+      grid-template-columns: 50% 50%;" class="margim">
+      <div class="div1">
+       <img src="03 BMW M 1000 RR.jpg" alt="BMW BIKRE" usemap="#image-map" class="bike1">
+       <map name="image-map">
+      <area target="_blank" alt=""  title="bike" href="www,google.com" 
+      coords="569,441,58,12">
+       </map>
+       <div class="pradiv">
+        <p style="text-align: center; "class="para" >
+          M 1000 RR<br>
+          Standard: ₹ 49,00,000<br>
+          Pro: ₹ 55,90,000<br>
+          <span>
+            <button class="buy">
+             <a href="www.google.com" target="_blank" class="link">buy now</a>
+            </button>
+          </span>
+        </p>
+       </div>
+      </div>
+      <div class="div2">
+        <img src="exterior_bmw-m-1000-r_front-left-view_600x400.webp" alt="BMW BIKRE" usemap="#image-map" class="bike1" id="redbik">
+        <map name="image-map">
+       <area target="_blank" alt=""  title="bike" href="www,google.com" 
+       coords="569,441,58,12">
+        </map>
+        <div class="pradiv">
+          <p style="text-align: center; "class="para" >
+            M 1000 R<br>
+            Standard: ₹ 33,50,000.<br>
+            Pro: ₹ 34,90,000<br>
+            <span>
+              <button class="buy">
+               <a href="www.google.com" target="_blank" class="link">buy now</a>
+              </button>
+            </span>
+          </p>
+         </div>
+      </div>
+    </div>
+    <footer>
+        <div class="ft-content" style="display: grid;
+        grid-template-columns:35% 30% 35% ;">
+          <div class="ftc">
+            <h3 class="add">
+              Contact Us
+            </h3>
+            <p class="add">
+              Email:info@gmail.com
+            </p>
+            <p class="add">
+              Phone:+91 3984948394
+            </p>
+            <p class="add">
+              Galgotias University is a private university on Yamuna Expressway in Dankaur, Uttar Pradesh, India. Established in 2011 by Suneel Galgotia, it is the second regional campus of Galgotias Educational Institutions, after Galgotias College near Pari Chowk in Greater Noida
+            </p>
+          </div>
+          <div  class="hdiv">
+            <h4 class="c2">
+            Quick Links
+          </h4>
+           <ul class="list">
+            <li class="ab"><a href="file:///C:/Users/rahul/OneDrive/Desktop/bike%20website/bike.html" class="hm">Home</a></li>
+            <li  class="ab"><a href="#" class="hm">About</a></li>
+            <li  class="ab"><a href="#" class="hm">Contact Us</a></li>
+           </ul>
+          </div>
+          <div class="follow">
+            <h3 style="text-align: center; font-size: 22px; color: white;">
+              Follow Us
+            </h3>
+           <p style="text-align: center; "class="social"> 
+            <img src="icons8-instagram-48.png" usemap="#image-map">
+            
+            <map name="image-map">
+                <area target="" alt="" title="" href="" coords="47,47,4,0"  shape="rect">
+            </map>
+            <img src="icons8-twitter-48.png" usemap="#image-map">
+            
+            <map name="image-map">
+                <area target="" alt="" title="" href="#" coords="44,47,3,0" shape="rect">
+            </map>
+            <img src="icons8-whatsapp-48.png" usemap="#image-map">
+            
+            <map name="image-map">
+                <area target="" alt="" title="" href="" coords="44,47,3,0" shape="rect">
+            </map>
+            <img src="icons8-youtube-48 (1).png" usemap="#image-map">
+            
+            <map name="image-map">
+                <area target="" alt="" title="" href="" coords="44,47,3,0" shape="rect">
+            </map>
+          </p>
+          </div>
+        </div>
+    </footer>
+    <div class="bottom">
+      <p style="text-align: center; font-family:'Courier New',
+       Courier, monospace,
+       'Lucida Sans Regular', 'Lucida Grande',
+       'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+        &#169;2023 MY website .All rights reserved
+      </p>
+    </div>
+  </body>
+</html>
